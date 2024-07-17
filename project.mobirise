@@ -1,0 +1,237 @@
+{
+  "settings": {
+    "name": "Avenue Github NYC real estate",
+    "currentPage": "nyc-real-estate.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "styling": {
+        "primaryColor": "#5f88d4",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2.5,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.2,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#5f88d4"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.9.4",
+    "siteFonts": [
+      {
+        "css": "'Inter Tight', sans-serif",
+        "name": "Inter Tight",
+        "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "imageResize": true,
+    "favicon": false,
+    "mbrsiteDomain": "r2qpkgqm18",
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 13,
+    "versionPublish": "5.9.17",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "nyc-real-estate.html": {
+      "settings": {
+        "main": true,
+        "title": "NYC real estate",
+        "meta_descr": "We’ll stick with you every step of the way and work diligently to make sure your NYC real estate experience is advantageous for you and your family. If any aspect of your purchase or sale should end up in a courtroom, we will have the experience and background to cover your case with ease.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-heading": {
+              "padding-top": "16px",
+              "padding-bottom": "8px",
+              "color": "#012b3a"
+            },
+            ".p, .mbr-text": {
+              "color": "#012b3a"
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "a": {
+              "font-weight": "400 !important"
+            },
+            "a.text-danger:hover": {
+              "color": "#E5BE8A !important"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"6\" max=\"12\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"range\" title=\"Paragraphs Amount\" name=\"articlesAmount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"/addons/socialm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fff8ef\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{\n            'mbr-fullscreen': fullScreen}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"row\">\n                <div class=\"col-12 col-md-{{contentWidth}}\">\n                    <div class=\"row\">\n                        <div class=\"col-12\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                            </p><h1>Understanding the Basics of NYC Real Estate Law</h1><p>Residential real estate law encompasses laws that apply to property transactions involving homes, apartments, commercial buildings, and other structures. It determines what can be built on a piece of land, who owns the rights to the property, and how that property can be transferred. It also governs the terms of mortgages and property taxes. Real estate investors must have a thorough understanding of New York state real estate law to ensure their investment is protected. Consulting with a <a href=\"https://www.avenuelawfirm.com/\" class=\"text-primary\" target=\"_blank\">real estate lawyer NYC</a> can help investors navigate these complex laws and safeguard their investments.\n<br>\n<br>Purchasing a home in New York is a complicated process that requires the assistance of a licensed professional. A real estate agent can help you find properties that meet your needs, recommend “comps,” and advise on pricing strategies. They can also guide you through the steps of making an offer and negotiating terms. A residential real estate lawyer in NYC can assist you in drafting and reviewing contracts, conducting due diligence and property inspections, ensuring compliance with regulations, handling title searches and insurance, managing the closing process, and addressing post-closing concerns.\n<br>\n<br>A good residential real estate law firm will have a wide range of experience in all aspects of commercial and residential real estate transactions. They should have a proven track record, a knowledgeable and experienced team of attorneys, a solid understanding of New York state property law and regulations, and a commitment to providing personalized service and attention to clients’ unique needs. Reputable firms will be well-versed in a variety of NYC real estate investment strategies and approaches, including short-term rental (Airbnb) investments, wholesaling, and property flipping. They will also be familiar with local zoning and rent control regulations.\n<br>\n<br>There are many issues that may arise during a property transaction, and it is important for investors to be prepared for these challenges. They should consider their financial readiness, research market trends and growth potential, and carefully analyze the legal aspects of each property. This will enable them to make sound decisions that maximize their NYC real estate investment potential.\n<br>\n<br>The location of a property is also an important factor, as it can significantly influence its value. Investing in NYC real estate properties with close proximity to cultural attractions, public transportation, and other amenities can increase a property’s potential for appreciation and rental income. Investors should be aware of zoning regulations and restrictions on building construction, as these can limit a property’s appeal and suitability for certain uses.\n<br>\n<br>When it comes to selling a property, a qualified residential real estate attorney in NYC can assist you with determining the optimal price and marketing strategy. They will conduct a thorough market analysis and compare comparable sales to determine the fair market value of your property. They will also assist you with the preparation of a listing agreement, drafting disclosure statements, and negotiating and finalizing terms with prospective buyers. A residential real estate lawyer can also handle the transfer of ownership by preparing a deed and coordinating with title insurance companies.\n<br>\n<br>A reputable NYC real estate law firm will be by your side through every step of the process, guarding your NYC real estate investment and protecting your rights. From negotiating contracts and conducting inspections to navigating the closing process and addressing any post-closing concerns, they will be your trusted advisor and advocate.&nbsp;<br></p>\n                         \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tNFJnaSGCs",
+          "_anchor": "article07-4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe src=\"https://bspelm.github.io/avenue-law-firm/nyc-real-estate.html\" style=\"border:0px #ffffff none;\" name=\"myiFrame\" scrolling=\"yes\" frameborder=\"1\" marginheight=\"0px\" marginwidth=\"0px\" height=\"400px\" width=\"600px\" allowfullscreen=\"\"></iframe>\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "startm5",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-6"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-heading": {
+              "padding-top": "16px",
+              "padding-bottom": "8px",
+              "color": "#012b3a"
+            },
+            ".p, .mbr-text": {
+              "color": "#012b3a"
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "a": {
+              "font-weight": "400 !important"
+            },
+            "a.text-danger:hover": {
+              "color": "#E5BE8A !important"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"6\" max=\"12\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"range\" title=\"Paragraphs Amount\" name=\"articlesAmount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"/addons/socialm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fff8ef\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{\n            'mbr-fullscreen': fullScreen}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"row\">\n                <div class=\"col-12 col-md-{{contentWidth}}\">\n                    <div class=\"row\">\n                        <div class=\"col-12\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                            </p><h2>Navigating the Complexities of NYC Real Estate Transactions</h2><p>New York City’s real estate market can be an intimidating landscape for first-time buyers. As a result, it is essential for new homebuyers to familiarize themselves with the various neighborhoods, property types, and prices to ensure they have an in-depth understanding of the NYC real estate housing market before beginning their search. Additionally, it is advisable to partner with an experienced local agent who can provide guidance throughout the home-buying process, helping them identify properties that meet their budget and offer the best potential return on investment. Consulting with a real estate lawyer NYC can further ensure a smooth transaction.\n<br>\n<br>When navigating the complexities of NYC real estate transactions, it is crucial to understand how the legal landscape impacts each step of the process. From ensuring compliance with local regulations to resolving contractual disputes, the involvement of knowledgeable legal counsel is vital for safeguarding your interests and achieving a successful outcome. Whether you are buying, selling, or leasing, a skilled NYC real estate lawyer can serve as your steadfast partner throughout the transaction.\n<br>\n<br>The New York City real estate market is dynamic, influenced by various factors including economic conditions and interest rates. In addition, the NYC real estate market is often cyclical, experiencing periods of rapid appreciation followed by stabilization or decline. Understanding the different cycles can help investors plan accordingly and ensure that their investments are aligned with the long-term goals of their portfolios.\n<br>\n<br>Despite the recent cooling of the market, New York remains an incredibly competitive and challenging environment for homeowners and investors alike. Buyers are facing fierce competition for well-priced properties, and sellers must remain realistic when setting their asking prices. Additionally, it is important to consider ongoing expenses such as maintenance fees for co-ops and condos, property taxes, insurance, and homeowner association (HOA) fees when evaluating the financial feasibility of an NYC real estate purchase.\n<br>\n<br>In the current seller’s market, it is particularly critical for prospective homebuyers to understand the nuances of the NYC real estate market, including pricing trends and neighborhood amenities. Using online tools, as well as visiting open houses in the areas in which they are interested, can help them assess their budgetary constraints and identify properties that meet their specifications. Additionally, it is advisable to work with an experienced local broker who can provide insight into neighborhood trends and the NYC real estate market in their area of interest.\n<br>\n<br>It is also important for prospective homebuyers to consider the tax ramifications of purchasing real estate in New York. In addition to a sales tax, there are a variety of other property-related taxes and fees that must be taken into account, such as transfer taxes, recording charges, and real estate taxes. In order to avoid surprises, it is advisable to seek the advice of an accountant and to conduct a title search prior to submitting a purchase offer. Additionally, it is advisable to obtain a survey of the property to determine its boundaries and easements.&nbsp;<br></p>\n                         \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tNFKYV3ONU",
+          "_anchor": "article07-7",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-heading": {
+              "padding-top": "16px",
+              "padding-bottom": "8px",
+              "color": "#012b3a"
+            },
+            ".p, .mbr-text": {
+              "color": "#012b3a"
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "a": {
+              "font-weight": "400 !important"
+            },
+            "a.text-danger:hover": {
+              "color": "#E5BE8A !important"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"6\" max=\"12\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"range\" title=\"Paragraphs Amount\" name=\"articlesAmount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"/addons/socialm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fff8ef\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{\n            'mbr-fullscreen': fullScreen}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"row\">\n                <div class=\"col-12 col-md-{{contentWidth}}\">\n                    <div class=\"row\">\n                        <div class=\"col-12\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                            </p><h2>How to Ensure a Smooth NYC Real Estate Transaction</h2><p>The home-buying process can be overwhelming for first-time buyers, especially in NYC where the real estate market is competitive and unpredictable. By obtaining mortgage pre-approval, conducting thorough research, and working with an experienced local NYC real estate professional, beginners can approach the NYC real estate market with confidence and clarity. Consulting with a real estate lawyer NYC can further ensure a smooth transaction. This article explores 5 top tips to help ensure a smooth NYC real estate transaction:\n<br>\n<br>Buyers should make a good faith deposit at the outset of the home buying process. While it may not be mandatory in NYC, this deposit demonstrates to sellers that the buyer is serious about making a purchase and will not back out of the deal. Buyers should also cooperate with inspections, addressing any issues promptly.\n<br>\n<br>A real estate attorney is an important resource for the homebuyer throughout the entire process. They will be responsible for preparing the purchase contract, clearing title issues, and managing adjustments during the closing. They can also assist with coordinating payoffs and executing the deed and associated tax transfer documents. In addition, a lawyer can provide a clear picture of the financial responsibilities associated with a transaction and help safeguard buyer interests.\n<br>\n<br>The real estate agent is a vital partner for the homebuyer and must be well-trained and responsive. They will often negotiate on behalf of their client, analyzing the current NYC real estate market and negotiating a fair price for the property. They will be familiar with the different neighborhoods and can provide their clients with a thorough understanding of the NYC real estate market. Additionally, they can recommend professionals to assist with the various steps of the process, such as lenders, escrow companies, and title services.\n<br>\n<br>During the negotiation phase, it is essential that the buyer be prepared to compromise. The homebuyer should be willing to adjust the contract terms, financing conditions, and inspections. By demonstrating flexibility, the buyer can increase their negotiating position and secure a favorable agreement with the seller.\n<br>\n<br>After the homebuyer has signed the purchase contract and has a firm commitment from their lender, they can finalize the transaction with the seller. This typically includes delivering a certified copy of the purchase contract and the settlement statement to the escrow officer and providing any requested documentation from the seller.\n<br>\n<br>At the closing, the purchaser will receive their payment and assume ownership of the property. The closing is usually held at the attorney’s office, but can also be conducted at a bank or other private location. The lawyer will review the closing statement and coordinate with the title company, escrow officer, and lender to finalize the sale. The purchaser will also sign a deed and a transfer of taxes form. In addition, the purchaser will be responsible for paying the real estate broker’s fee. The attorney will also prepare the conveyance records and record the transfer of funds. In addition, the attorney will oversee the transfer of the proprietary lease and stock certificate if the property is a co-op. If any liens are found, the attorney will notify all parties to the transaction and assist with the resolution of the liens.&nbsp;<br></p>\n                         \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tNFL1TvpKU",
+          "_anchor": "article07-9",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <rssapp-wall id=\"rvMvqcOcNDSEsHbC\"></rssapp-wall>[JS_CODE_0]\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "startm5",
+          "_anchor": "custom-html-c",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://widget.rss.app/v1/wall.js\" type=\"text/javascript\" async></script>"
+          ]
+        }
+      ]
+    }
+  }
+}
